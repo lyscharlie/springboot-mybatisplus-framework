@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lyscharlie?characterEncoding=utf8
+    username: lyscharlie
+    password: 2110857
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 10m
+    context-path: /lyscharlie
+

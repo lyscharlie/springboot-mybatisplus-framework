@@ -2,15 +2,15 @@ package com.lyscharlie.biz.area.service;
 
 import java.util.List;
 
-import com.lyscharlie.biz.area.entity.LysArea;
+import com.lyscharlie.biz.area.entity.LysAreaDO;
 
 public interface LysAreaService {
 
-	boolean create(LysArea area);
+	boolean create(LysAreaDO area);
 
-	boolean save(LysArea area);
+	boolean save(LysAreaDO area);
 
-	LysArea queryById(long areaId);
+	LysAreaDO queryById(long areaId);
 
-	List<LysArea> queryByPage(int pageNo, int pageSize, int areaLevel);
+	List<LysAreaDO> queryByPage(int pageNo, int pageSize, int areaLevel);
 }

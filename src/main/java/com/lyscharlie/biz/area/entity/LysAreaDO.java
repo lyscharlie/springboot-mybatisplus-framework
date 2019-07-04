@@ -8,12 +8,12 @@ import lombok.Data;
 
 @Data
 @TableName("lys_area")
-public class LysArea {
+public class LysAreaDO {
 
 	/**
 	 * 地区id
 	 */
-	@TableId(value = "area_id", type = IdType.AUTO)
+	@TableId(type = IdType.AUTO)
 	private Long areaId;
 
 	/**

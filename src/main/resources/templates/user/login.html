@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <title>登录</title>
 </head>
-<body>
-<form method="post" th:action="@{doLogin.htm}">
-    <input type="text" name="userName"> <br>
-    <input type="password" name="password"><br>
-    <input type="submit" value="登录"><br>
-    <span th:text="${message}" style="color:red"></span>
-</form>
+<body style="text-align: center;">
+<div style="margin:0 auto; width: 500px;">
+    <form method="post" th:action="@{doLogin.htm}">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" name="userName"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="登录">
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><span th:text="${message}" style="color:red"></span></td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>

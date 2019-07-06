@@ -7,6 +7,10 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  thymeleaf:
+    mode: html
+    encoding: utf-8
+    cache: false
 
 
 server:

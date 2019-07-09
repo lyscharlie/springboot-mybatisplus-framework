@@ -20,3 +20,12 @@ server:
       timeout: 10m
     context-path: /lyscharlie
 
+logging:
+  path: /Users/liyishi/Work/logs/lyscharlie
+  level:
+    root: info
+    com:
+      lyscharlie:
+        biz:
+          user:
+            mapper: debug

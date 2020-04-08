@@ -10,11 +10,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lyscharlie.Application;
+import com.lyscharlie.SpringbootMybatisplusFrameworkApplication;
 import com.lyscharlie.biz.area.entity.LysAreaDO;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = SpringbootMybatisplusFrameworkApplication.class)
 public class LysAreaServiceTest {
 
 	@Autowired

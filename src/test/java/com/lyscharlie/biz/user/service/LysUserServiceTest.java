@@ -10,11 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lyscharlie.Application;
+import com.lyscharlie.SpringbootMybatisplusFrameworkApplication;
 import com.lyscharlie.biz.user.entity.LysUserDO;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = SpringbootMybatisplusFrameworkApplication.class)
 public class LysUserServiceTest {
 
 	@Autowired

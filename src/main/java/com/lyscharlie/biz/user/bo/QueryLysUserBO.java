@@ -5,6 +5,7 @@ import java.util.Date;
 import com.lyscharlie.common.bo.BaseQueryBO;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * @author CodeGenTool
@@ -12,9 +13,11 @@ import lombok.Data;
  * @Description: by CodeGenerate
  * @date 2019-7-5
  */
+@EqualsAndHashCode(callSuper = true)
 @Data
 public class QueryLysUserBO extends BaseQueryBO {
 
+	private static final long serialVersionUID = -1158048628420776225L;
 	/**
 	 * 用户id ( 主键 )
 	 */
